@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/valen.png" alt="avatar" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Valentina</p>
+        <h1>Estudante do 7º Colégio da polícia Militar </h1>
+        <p>Sou estudante do 3º ano do Ensino Médio no Sétimo Colégio da Polícia Militar. Tenho grande interesse por dança, música e leitura, áreas que contribuem para minha disciplina, criatividade e desenvolvimento pessoal.</p>
+        <div>
+            <p class="badge bg-secondary">Dança</p>
+            <p class="badge bg-secondary">Musica</p>
+            <p class="badge bg-secondary">Literatura</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/bale.png" class="card-img-top" alt="dana">
+                    <div class="card-body">
+                        <h5 class="card-title">Dança</h5>
+                        <p class="card-text">O ballet é uma das artes que mais admiro e pratico com dedicação</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/musica.png" class="card-img-top" alt="musica">
+                    <div class="card-body">
+                        <h5 class="card-title">Musica</h5>
+                        <p class="card-text">A música sempre teve um papel importante na minha formação pessoal e artística.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/livros.png" class="card-img-top" alt="livros">
+                    <div class="card-body">
+                        <h5 class="card-title">Literatura</h5>
+                        <p class="card-text">A leitura é uma das minhas maiores paixões, pois me transporta para universos completamente novos e me permite viver várias histórias em uma só vida.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja mais sobre o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Balé</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ele me ensinou disciplina, equilíbrio e paciência, além de ser uma forma de expressão única, capaz de transmitir sentimentos sem palavras. Cada ensaio é um exercício de superação e foco, enquanto as apresentações trazem a emoção de compartilhar a beleza da dança com o público. O ballet me ajudou a desenvolver postura, confiança e sensibilidade artística, qualidades que levo para outras áreas da minha vida.</p>
+                   </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Musica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> . Ela me inspira, me acalma e ao mesmo tempo desperta minha criatividade. Através dela, aprendo a reconhecer a importância do ritmo, da melodia e da harmonia, não apenas na arte, mas também no cotidiano. Escutar e vivenciar diferentes estilos musicais amplia minha visão de mundo e me ajuda a desenvolver sensibilidade e concentração. Para mim, a música é uma linguagem universal que conecta pessoas e culturas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Livros</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tenho interesse especial em coleções e trilogias, como a Trilogia do Verão, que traz narrativas cativantes e cheias de emoção. Os livros despertam reflexões sobre amizade, amor e amadurecimento, ao mesmo tempo em que estimulam a imaginação e enriquecem o vocabulário. Ler é, para mim, não apenas um hobby, mas também uma ferramenta de crescimento pessoal e intelectual.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="#">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
